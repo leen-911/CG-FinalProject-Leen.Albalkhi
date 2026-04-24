@@ -1,4 +1,6 @@
   🌟 3D Lane Runner — Crazy Collector 101
+
+
 A fast‑paced 3D lane‑runner game built using C++, OpenGL 3.3, GLFW, GLEW, GLM, and stb_image.
 The player moves between lanes, jumps over obstacles, collects coins, and races against a 60‑second timer.
 
@@ -7,45 +9,45 @@ The player moves between lanes, jumps over obstacles, collects coins, and races 
 Crazy Collector 101 is a 3D endless‑runner style game where the player controls a rolling ball moving forward on a long road.
 Your goal is simple:
 
-Collect as many coins as possible
+🪙Collect as many coins as possible
 
-Avoid obstacles
+🧱Avoid obstacles
 
-Survive until the timer reaches zero
+⌛Survive until the timer reaches zero
 
-Or reset and try again
+🔁Or reset and try again
 
     The game features:
 
-Three‑lane movement
+-Three‑lane movement
 
-Jumping mechanics
+-Jumping mechanics
 
-Hundreds of coins
+-Hundreds of coins
 
-Dozens of obstacles
+-Dozens of obstacles
 
-Dynamic lighting
+-Dynamic lighting
 
-Scrolling textures
+-Scrolling textures
 
-Skybox environment
+-Skybox environment
 
-Smooth camera following
+-Smooth camera following
 
-Win/Lose states
+-Win/Lose states
 
-Real‑time score and timer display
+-Real‑time score and timer display
 
 
     ⌨️ Controls
 
   
-| **LEFT Arrow** | Move to the left lane |
+⬅️| **LEFT Arrow** | Move to the left lane |
 
-| **RIGHT Arrow** | Move to the right lane |
+➡️| **RIGHT Arrow** | Move to the right lane |
 
-| **UP Arrow** | Jump |
+⬆️| **UP Arrow** | Jump |
 
 | **R** | Reset the game |
 
@@ -57,17 +59,17 @@ Requirements
 
 This project uses:
 
-OpenGL 3.3 Core
+-OpenGL 3.3 Core
 
-GLFW (window + input)
+-GLFW (window + input)
 
-GLEW (OpenGL loader)
+-GLEW (OpenGL loader)
 
-GLM (math)
+-GLM (math)
 
-stb_image (texture loading)
+-stb_image (texture loading)
 
-All required headers are included in the project folder.
+-All required headers are included in the project folder.
 
 
 
@@ -76,40 +78,40 @@ All required headers are included in the project folder.
     ▶️ Running the Game
 When the game starts:
 
-The ball begins rolling forward automatically
+-The ball begins rolling forward automatically
 
-The timer starts counting down from 60 seconds
+-The timer starts counting down from 60 seconds
 
-Coins and obstacles spawn along the road
+-Coins and obstacles spawn along the road
 
-The camera follows the player smoothly
+-The camera follows the player smoothly
 
 You lose if:
 
-You hit an obstacle
+-You hit an obstacle
 
-The timer reaches zero
+-The timer reaches zero
 
-You can always press R to restart instantly.
+-You can always press R to restart instantly.
 
 
     🧠 How the Game Works (Technical Summary)
-The ball moves forward automatically using ballZ -= speed * deltaTime
+-The ball moves forward automatically using ballZ -= speed * deltaTime
 
-Lane switching updates the X‑position instantly
+-Lane switching updates the X‑position instantly
 
-Jumping uses velocity + gravity physics
+-Jumping uses velocity + gravity physics
 
-Coins and obstacles are stored in arrays and checked using distance formulas
+-Coins and obstacles are stored in arrays and checked using distance formulas
 
-Shaders handle:
+-Shaders handle:
 
-Lighting
+-Lighting
 
-Texture scrolling
+-Texture scrolling
 
-Skybox rendering
+-Skybox rendering
 
-The camera uses glm::lookAt to follow the player smoothly
+-The camera uses glm::lookAt to follow the player smoothly
 
-The window title updates every frame with score + time
+-The window title updates every frame with score + time
