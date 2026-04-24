@@ -115,3 +115,8 @@ You lose if:
 -The camera uses glm::lookAt to follow the player smoothly
 
 -The window title updates every frame with score + time
+
+
+## 🎥 Demo Video
+[Click here to watch the gameplay demo](https://github.com/user-attachments/assets/59a65906-8408-44b3-b5c6-c6bd87f62708)
+
