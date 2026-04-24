@@ -632,9 +632,9 @@ int main()
 
     // TEXTURES
     cout << "[INIT] Loading textures..." << endl;
-    unsigned int roadTex = loadTexture("asphalt-road (1).jpg");
-    unsigned int coinTex = loadTexture("gold-coin.png");
-    unsigned int skyTex = loadTexture("sky.jpg");
+    unsigned int roadTex = loadTexture("assets/asphalt-road (1).jpg");
+    unsigned int coinTex = loadTexture("assets/gold-coin.png");
+    unsigned int skyTex = loadTexture("assets/sky.jpg");
     cout << "[OK] Texture loading complete" << endl;
 
     glUseProgram(shaderProgram);
